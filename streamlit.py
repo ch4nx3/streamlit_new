@@ -46,7 +46,7 @@ SM은 다양한 K-Pop 스타를 보유하고 있음:
 - **aespa**: 메타버스 콘셉트
 - **Hearts2Hearts**: 2025년 데뷔 신인
 """)
-st.image('C:/Users/장종찬/Documents/aespa.jpg', caption='aespa')
+st.image('images/aespa.jpg', caption='aespa')
 st.subheader("앨범 판매량 그래프 📊")
 artists = ["NCT", "aespa", "EXO", "Girls' Generation"]
 sales = [420, 200, 150, 10]  # 실제 데이터 (만 장)
@@ -130,7 +130,7 @@ HYBE는 세계적인 K-Pop 스타를 보유하고 있음:
 - **LE SSERAFIM**: 글로벌 팬덤 확장
 - **aeon**: 2025년 6월 데뷔한 J-Pop 보이그룹
 """)
-st.image('C:/Users/장종찬/Documents/illit.jpg', caption='illit')
+st.image('images/illit.jpg', caption='illit')
 st.subheader("앨범 판매량 그래프 📊")
 artists = ["BTS", "NewJeans", "SEVENTEEN", "TXT"]
 sales = [300, 250, 500, 200]  # 실제 데이터 (만 장)
@@ -214,7 +214,7 @@ JYP는 다양한 K-Pop 스타를 보유하고 있음:
 - **DAY6**: 밴드 음악의 선구자
 - **NEXZ**: 2023년 데뷔한 글로벌 보이그룹
 """)
-st.image('C:/Users/장종찬/Documents/twice.jpg', caption='twice')
+st.image('images/twice.jpg', caption='twice')
 st.subheader("앨범 판매량 그래프 📊")
 artists = ["TWICE", "Stray Kids", "ITZY", "NMIXX"]
 sales = [200, 350, 100, 80]  # 실제 데이터 (만 장)
