@@ -1,9 +1,10 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-import matplotlib.font_manager as fm._rebuild()
+import matplotlib.font_manager as fm
 
-# 한글 폰트 설정
+# 한글 폰트 설정했음
+fm._rebuild()  # 폰트 캐시 갱신
 plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
