@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 # 한글 폰트 설정
-plt.rcParams['font.family'] = 'NanumGothic'
+plt.rcParams['font.family'] = 'DejaVu Sans'
 plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
