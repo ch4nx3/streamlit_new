@@ -1,10 +1,11 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
-import matplotlib.font_manager as fm
+import matplotlib.font_manager as 
+fm._rebuild()
 
 # 한글 폰트 설정
-plt.rcParams['font.family'] = 'DejaVu Sans'
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
