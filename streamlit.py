@@ -4,10 +4,8 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 # 한글 폰트 설정
-font_path = 'C:/Windows/Fonts/malgun.ttf'  # Windows (Malgun Gothic)
-font = fm.FontProperties(fname=font_path, size=12)
-plt.rcParams['font.family'] = font.get_name()  # 전역 폰트 설정
-plt.rcParams['axes.unicode_minus'] = False  # 마이너스 기호 깨짐 방지
+plt.rcParams['font.family'] = 'NanumGothic'
+plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
 st.title("SM Entertainment  😊")
