@@ -4,11 +4,12 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 
+# 폰트 캐시 갱신
 font_paths = fm.findSystemFonts()
 fm.fontManager.ttflist = [fm.FontEntry(path) for path in font_paths]
 
 # 한글 폰트 설정
-plt.rcParams['font.family'] = 'Noto Sans CJK KR'
+plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
