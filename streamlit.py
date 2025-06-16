@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 
-
-plt.rcParams['font.family'] = 'NanumGothic'
+fm.fontManager.ttflist = fm.createFontList(fm.findSystemFonts())
+plt.rcParams['font.family'] = 'Noto Sans CJK KR'
 plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
