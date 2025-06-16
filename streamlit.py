@@ -11,7 +11,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
 st.title("SM Entertainment  😊")
-st.markdown("**SM Entertainment**는 K-Pop을 세계로 알린 대표적인 엔터테인먼트 회사임. 1995년에 설립되어 글로벌 팬덤을 이끌고 있음.")
+st.markdown("**SM Entertainment**는 K-Pop을 세계로 알린 대표적인 엔터테인먼트 회사. 1995년에 설립되어 글로벌 팬덤을 이끌고 있음.")
 st.divider()
 
 st.header("SM의 비전 🌟")
@@ -21,7 +21,7 @@ SM은 "The Culture, The Future"를 목표로 함:
 - 음악, 공연 등 새로운 콘텐츠 개발
 - 다양한 아티스트를 키우는 다중 레이블 전략
 """)
-st.info("SM은 글로벌 엔터테인먼트의 미래를 만들어감!", icon="ℹ️")
+st.info("SM은 글로벌 엔터테인먼트의 미래", icon="ℹ️")
 st.divider()
 
 st.header("SM의 기업 문화 💼")
@@ -80,7 +80,7 @@ st.markdown("""
 - SM 30주년 기념 콘서트와 앨범 발매
 - 아티스트 관리와 리더십 문제로 논란
 """)
-st.success("SM 30주년 축하함!", icon="🎉")
+st.success("SM 30주년", icon="🎉")
 st.divider()
 
 st.header("SM의 강점 🏆")
@@ -96,7 +96,7 @@ st.caption("2025년 6월 | SM Entertainment ")
 
 # HYBE Entertainment 블로그
 st.title("HYBE Entertainment  😊")
-st.markdown("**HYBE**는 BTS를 중심으로 K-Pop을 글로벌 무대로 확대한 엔터테인먼트 리더임. 2005년에 설립된 Big Hit Entertainment가 전신임.")
+st.markdown("**HYBE**는 BTS를 중심으로 K-Pop을 글로벌 무대로 확대한 엔터테인먼트 리더. 2005년에 설립된 Big Hit Entertainment가 전신.")
 st.divider()
 
 st.header("HYBE의 비전 🌟")
@@ -164,7 +164,7 @@ st.markdown("""
 - SM 지분 매각: 텐센트에 9.38% 지분 1770억 원에 매각
 - 논란: 방시혁 회장 주식 거래 조사 및 NewJeans와 법적 분쟁
 """)
-st.success("BTS 재결합 축하함!", icon="🎉")
+st.success("BTS ", icon="🎉")
 st.divider()
 
 st.header("HYBE의 강점 🏆")
@@ -180,7 +180,7 @@ st.caption("2025년 6월 |  HYBE Entertainment ")
 
 # JYP Entertainment 블로그
 st.title("JYP Entertainment  😊")
-st.markdown("**JYP Entertainment**는 TWICE, Stray Kids 등 글로벌 K-Pop 스타를 배출한 선도적인 엔터테인먼트 회사임. 1997년에 박진영 대표가 설립했음.")
+st.markdown("**JYP Entertainment**는 TWICE, Stray Kids 등 글로벌 K-Pop 스타를 배출한 선도적인 엔터테인먼트 회사. 1997년에 박진영 대표가 설립.")
 st.divider()
 
 st.header("JYP의 비전 🌟")
@@ -248,7 +248,7 @@ st.markdown("""
 - VCHA 멤버 KG 계약 종료 및 소송, 노동 착취 논란
 - 중국 시장 재진출, 베이징 사무소 설립
 """)
-st.success("JYP 아티스트의 글로벌 활약을 응원함!", icon="🎉")
+st.success("JYP 아티스트의 글로벌 활약", icon="🎉")
 st.divider()
 
 st.header("JYP의 강점 🏆")
