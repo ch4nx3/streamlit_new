@@ -4,9 +4,12 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 
-fm.fontManager.ttflist = fm.createFontList(fm.findSystemFonts())
-plt.rcParams['font.family'] = 'Noto Sans CJK KR'
+font_paths = fm.findSystemFonts()
+fm.fontManager.ttflist = [fm.FontEntry(path) for path in font_paths]
 
+# 한글 폰트 설정
+plt.rcParams['font.family'] = 'Noto Sans CJK KR'
+plt.rcParams['axes.unicode_minus'] = False
 
 # SM Entertainment 블로그
 st.title("SM Entertainment  😊")
