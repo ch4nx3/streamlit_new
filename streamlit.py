@@ -6,7 +6,7 @@ import matplotlib.font_manager as fm
 
 
 plt.rcParams['font.family'] = 'Noto Sans CJK KR'
-plt.rcParams['axes.unicode_minus'] = False
+
 
 # SM Entertainment 블로그
 st.title("SM Entertainment  😊")
