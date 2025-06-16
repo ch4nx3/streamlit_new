@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 
-fm.fontManager._rebuild()  
+
 plt.rcParams['font.family'] = 'NanumGothic'
 plt.rcParams['axes.unicode_minus'] = False
 
