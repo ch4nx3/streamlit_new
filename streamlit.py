@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.font_manager as fm
 
 
-
+fm.fontManager.ttflist = fm.createFontList(fm.findSystemFonts())
 plt.rcParams['font.family'] = 'Noto Sans CJK KR'
 
 
